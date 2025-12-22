@@ -1,0 +1,22 @@
+{
+    "name": "Linux Learning Env",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "linux",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "peacock.color": "#323232"
+            },
+            "extensions": [
+                "oderwat.indent-rainbow",
+                "timonwong.shellcheck",
+                "mkhl.shfmt",
+                "eamodio.gitlens",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
