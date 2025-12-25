@@ -1,0 +1,4 @@
+INFO start
+ERROR db
+ERROR auth
+WARN cache
