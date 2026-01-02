@@ -1,0 +1,2 @@
+[1]-  Stopped                 sleep 300  (wd: /workspace/src/chap-06/practice)
+[2]+  Stopped                 sleep 300
