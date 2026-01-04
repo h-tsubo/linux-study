@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for i in {1..300}; do
+	echo "tick $i"
+	sleep 1
+done
