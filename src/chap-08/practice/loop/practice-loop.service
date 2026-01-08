@@ -1,0 +1,12 @@
+[Unit]
+Description=Practice Loop Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/practice-loop.sh
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

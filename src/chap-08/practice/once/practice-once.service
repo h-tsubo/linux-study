@@ -1,0 +1,11 @@
+[Unit]
+Description=Practice One Shot
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/practice-once.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
